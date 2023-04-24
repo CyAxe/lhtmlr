@@ -1,0 +1,22 @@
+[package]
+name = "lhtmlr"
+version = "0.1.0"
+edition = "2021"
+authors = ["Khaled Nassar <knassar702@gmail.com>"]
+
+[features]
+lua54 = ["mlua/lua54"]
+lua53 = ["mlua/lua53"]
+lua52 = ["mlua/lua52"]
+lua51 = ["mlua/lua51"]
+luajit = ["mlua/luajit"]
+vendored = ["mlua/vendored"]
+
+[lib]
+name = "lhtmlr"
+crate-type = ["cdylib"]
+
+
+[dependencies]
+mlua = { version = "0.8.8", features = ["module", "send"] }
+scraper = "0.16.0"
