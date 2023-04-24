@@ -2,7 +2,7 @@ package = "lua-lhtmlr"
 version = "0.1.0-1"
 
 source = {
-    url = "git+https://github.com/rusty-sec/lhtmlr",
+    url = "git+https://github.com/BugBlocker/lhtmlr",
     tag = "0.1.0",
 }
 
@@ -13,7 +13,7 @@ description = {
  It has been created specifically for Lotus Project (available at https://github.com/rusty-sec/lotus) as an additional library.
  With this library, users can easily parse and extract information from HTML documents in Lua. It provides a simple and intuitive API that allows users to navigate through the document structure and extract data using CSS selectors.
     ]],
-    homepage = "https://github.com/rusty-sec/lhtmlr",
+    homepage = "https://github.com/BugBlocker/lhtmlr",
     license = "GPL2"
 }
 
